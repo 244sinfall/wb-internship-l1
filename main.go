@@ -75,7 +75,14 @@ func main() {
 			str := "snow dog sun"
 			reversedWords := task20(str)
 			fmt.Println("Было: " + str + " Стало: " + reversedWords)
-
+		case 21:
+			task21()
+		case 22:
+			task22()
+		case 23:
+			task23()
+		case 24:
+			task24()
 		default:
 			fmt.Println("Такого задания нет! Попробуйте еще раз...")
 		}
