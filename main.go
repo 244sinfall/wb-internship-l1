@@ -83,6 +83,15 @@ func main() {
 			task23()
 		case 24:
 			task24()
+		case 25:
+			task25()
+		case 26:
+			task26str1 := "abcd"
+			task26str2 := "abCdefAaf"
+			task26str3 := "aabcd"
+			fmt.Println(task26str1, task26(task26str1))
+			fmt.Println(task26str2, task26(task26str2))
+			fmt.Println(task26str3, task26(task26str3))
 		default:
 			fmt.Println("Такого задания нет! Попробуйте еще раз...")
 		}
